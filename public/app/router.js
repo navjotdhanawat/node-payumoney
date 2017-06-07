@@ -1,6 +1,6 @@
-var scotchApp = angular.module('scotchApp', ['ngRoute']);
+var payuApp = angular.module('payuApp', ['ngRoute']);
 
-scotchApp.config(function ($routeProvider) {
+payuApp.config(function ($routeProvider) {
     $routeProvider
         .when('/', {
             templateUrl: 'app/view/main.html',
